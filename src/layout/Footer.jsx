@@ -82,7 +82,7 @@ export const Footer = () => {
                 Designer who codes
               </p>
               <p className="text-sm text-foreground leading-relaxed max-w-md">
-                Bilingual UX/UI designer and front-end developer crafting thoughtful digital experiences in Montréal. Specializing in WordPress, React, and design systems.
+                Trilingual UX/UI designer with 7+ years of agency experience, specializing in WordPress design and front-end development (HTML/CSS/JS/React)
               </p>
             </div>
           </div>
