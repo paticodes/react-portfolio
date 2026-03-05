@@ -12,20 +12,18 @@ export const projectDetails = {
     headerBg: "/projects/fondation/fondation-header.png",
     tools: ["Figma", "WordPress", "Elementor", "Meta Box", "Blocksy", "Twig", "JavaScript"],
     methodologies: ["UX Audit", "Wireframing", "Component-based Design", "Accessibility Testing"],
-    challenge: "The foundation's website hadn't been updated in over five years, accumulating critical PHP errors and preventing safe content updates. The communications team needed autonomy to manage content without triggering technical issues, but the underlying infrastructure was too fragile for even basic WordPress version updates.",
-    approach: "I conducted a comprehensive UX and technical audit, documenting all issues into a prioritized diagnostic report. After presenting findings to the communications team in French, we decided on a controlled redesign rather than incremental fixes. I created Figma wireframes and mockups to establish a shared vision, ensuring alignment between usability requirements and the team's editorial workflow.",
-    solution: `Built a stable, maintainable platform using Blocksy as the foundation, extensively customized to meet organizational needs.
-
-Key elements included:
-- Custom layouts with Elementor block components
-- Custom post types developed with Meta Box
-- Tailored functionality using Twig, HTML, CSS, and JavaScript
-- Clean, scalable codebase enabling safe updates and long-term autonomy`,
-    outcome: "Delivered between August and December 2024, the redesigned platform eliminated all PHP errors and restored the team's confidence in managing content independently. The site now serves as a reliable communication tool with improved performance, accessibility, and editorial flexibility.",
+    challenge: "The foundation's website hadn't been updated in over five years, with technical errors preventing the communications team from managing content safely.",
+    approach: "I conducted a full UX and technical audit, documented issues in a report, and presented it to the communications team. Together, we decided a controlled redesign was safer than incremental fixes. I built wireframes and mockups in Figma to align usability needs with editorial workflows.",
+    solution: [
+      "Built a stable WordPress platform using Blocksy and custom layouts with Elementor.",
+      "Created custom post types with Meta Box and tailored functionality with Twig, HTML, CSS, and JavaScript.",
+      "Structured the codebase to be clean, maintainable, and safe for updates."
+    ],
+    outcome: "The new site removed all technical errors and restored confidence for the team to manage content independently. It now runs smoothly and is easier to update and expand.",
     impact: [
-      "100% reduction in PHP errors",
-      "40% improvement in page load time",
-      "Enabled full content autonomy for non-technical team"
+      "No more PHP errors",
+      "Pages load faster",
+      "Team manages content autonomously"
     ],
     additionalLink: "https://fgmtl.org",
     additionalLinkText: "fgmtl.org",
@@ -35,6 +33,7 @@ Key elements included:
       "/projects/fondation/fondation-approach.png"
     ]
   },
+
   2: {
     id: 2,
     title: "UI KIT & BRAND ASSETS",
@@ -48,21 +47,18 @@ Key elements included:
     headerBg: "/projects/quetal/quetal-header.jpg",
     tools: ["Figma", "Adobe Photoshop", "Adobe Illustrator", "WordPress"],
     methodologies: ["Brand Strategy", "Component Design", "Template Systems"],
-    challenge: "Quétal, supporting Latinos learning French across Quebec, needed a cohesive visual identity and flexible design assets to promote their educational tours and community events. With limited resources and a mobile-first audience, the organization required materials that could be quickly adapted across digital platforms while maintaining brand consistency.",
-    approach: "I facilitated brand strategy workshops in French and English to understand Quétal's mission and audience. From there, I developed a comprehensive UI kit and media kit system in Figma, focusing on reusable components and social media templates that the team could customize independently for their tour promotions.",
-    solution: `Created a complete visual identity and flexible design system.
-
-Key deliverables included:
-- Brand identity with color palette, typography, and iconography
-- Responsive UI kit with 50+ reusable components
-- WordPress website with bilingual event calendar
-- Social media template library for Facebook, Instagram, and LinkedIn
-- Marketing materials and presentation templates`,
-    outcome: "The UI kit empowered Quétal's small team to maintain consistent branding across all touchpoints while adapting materials for different cities and events. The bilingual website streamlined event registration and community engagement, establishing credibility within Quebec's business and educational communities.",
+    challenge: "Quétal needed a visual identity and flexible design assets to support French-language educational tours across Quebec with a small team and limited resources.",
+    approach: "I ran workshops in French and English to understand their mission and audience. Then, I built a UI kit and media system in Figma with reusable components and templates for social media, presentations, and events.",
+    solution: [
+      "Created brand identity with colors, typography, and icons.",
+      "Designed responsive UI kit with over 50 reusable components.",
+      "Built social media templates and WordPress event calendar."
+    ],
+    outcome: "The team could now produce materials consistently and quickly. The bilingual website simplified event registration and boosted community engagement.",
     impact: [
-      "Established cohesive brand presence from zero",
-      "Created scalable UI kit with 50+ components",
-      "Reduced design turnaround time by 60%"
+      "Cohesive brand identity across platforms",
+      "Faster design workflow",
+      "UI kit widely adopted by the team"
     ],
     additionalLink: null,
     additionalLinkText: null,
@@ -72,6 +68,7 @@ Key deliverables included:
       "/projects/quetal/quetal-approach.png"
     ]
   },
+
   3: {
     id: 3,
     title: "BOOKING FLOW REDESIGN",
@@ -85,20 +82,18 @@ Key deliverables included:
     headerBg: "/projects/transport/transport-header.jpg",
     tools: ["Axure RP", "Jira", "Miro", "Google Analytics"],
     methodologies: ["User Research", "Usability Testing", "Journey Mapping", "Heuristic Analysis"],
-    challenge: "As a junior designer joining a large UX team, I needed to quickly adapt to enterprise workflows while contributing to a complex booking flow redesign for a national transport company. The existing multi-passenger journey process had high abandonment rates, and mobile usability issues were driving customer service inquiries.",
-    approach: "This project taught me how to collaborate across distributed teams—coordinating with developers in India (English) and UX strategists in Montréal (French). I learned to create interactive wireframes in Axure RP, present design rationale to stakeholders, and justify decisions using analytics data. My role involved translating user research insights into wireframes, participating in usability testing sessions, and iterating based on feedback from both users and senior designers.",
-    solution: `Contributed to a streamlined booking experience focused on clarity and mobile optimization.
-
-Key improvements included:
-- Collaborated on passenger management interface improvements
-- Designed responsive touch targets and spacing for mobile
-- Created interactive prototypes to validate design decisions
-- Documented design patterns for the team's component library`,
-    outcome: "This experience fundamentally shaped my approach to UX work. I learned how to navigate large-scale projects, communicate design decisions to diverse stakeholders, and balance user needs with technical constraints. The redesigned flow successfully reduced abandonment rates and improved mobile conversion, validating the collaborative design process.",
+    challenge: "The booking flow was complex, causing high abandonment and mobile usability issues.",
+    approach: "I joined a large UX team, creating wireframes, running usability tests, and translating user research into improvements. I coordinated with developers in India and strategists in Montréal to ensure design decisions were implementable.",
+    solution: [
+      "Streamlined booking experience with clearer steps and mobile optimization.",
+      "Improved passenger management interface.",
+      "Built interactive prototypes to test and refine solutions."
+    ],
+    outcome: "The redesign reduced friction for users and improved overall conversion. I learned how to communicate design choices to stakeholders and iterate quickly based on real user feedback.",
     impact: [
       "Reduced booking abandonment by 25%",
-      "Increased mobile conversion by 35%",
-      "Learned to manage stakeholder communication in bilingual environment"
+      "Mobile conversion up by 35%",
+      "Improved teamwork across bilingual teams"
     ],
     additionalLink: null,
     additionalLinkText: null,
@@ -108,12 +103,13 @@ Key improvements included:
       "/projects/transport/transport-approach.png"
     ]
   },
+
   4: {
     id: 4,
     title: "PORTFOLIO WEBSITE DEVELOPMENT",
     client: "Personal Project",
     role: "Designer & Front-End Developer",
-    year: "2025-2026",
+    year: "2025–2026",
     sector: "Web Development",
     location: "Montréal, QC",
     languages: "English",
@@ -121,23 +117,18 @@ Key improvements included:
     headerBg: "/projects/portfolio/portfolio-header.jpg",
     tools: ["Figma", "React", "Tailwind CSS", "Vite", "React Router", "HTML", "CSS"],
     methodologies: ["Component-Based Architecture", "Responsive Design", "Accessibility-First Development", "Progressive Enhancement"],
-    challenge: "I wanted to build a portfolio that truly represents my design and development capabilities, not just showcase projects, but demonstrate hands-on front-end skills and measurable growth. The goal was to create something from scratch that balances visual design with clean, maintainable code, while showing concrete progression in my technical abilities.",
-    approach: "My journey began in summer 2025 when I built my first portfolio from scratch using pure HTML, CSS, and custom CSS animations, hosted on GitHub Pages. This foundational experience taught me core web development principles and gave me confidence to tackle more complex frameworks. For the current iteration, I started by designing the entire system in Figma: defining a custom color palette, typography scale, spacing system, and component library. This design-first approach helped me think through user flows and responsive behaviors before writing any code. I then followed modern React tutorials and documentation to rebuild the site from the ground up, focusing on understanding component architecture, state management, and routing rather than relying on templates.",
-    solution: `Built a fully responsive, component-based portfolio demonstrating technical evolution.
-
-Key elements included:
-- Custom design system with cohesive visual language
-- Component-based React architecture for maintainability
-- Tailwind CSS for efficient, scalable styling
-- React Router for smooth navigation and project detail pages
-- Accessibility considerations throughout (semantic HTML, ARIA labels, keyboard navigation)
-- Progressive enhancement from vanilla HTML/CSS foundation`,
-    outcome: "This project has been invaluable for deepening my front-end development skills and proving tangible growth in just one year—from basic HTML/CSS to modern React development. It's teaching me how to translate design decisions into code, debug React components, manage project structure, and think like both a designer and developer. Most importantly, it's giving me confidence to contribute to real-world codebases and collaborate with engineering teams. Moving forward, I'm continuing to improve my UI development skills by following tutorials on design system integration with React and Figma, learning Storybook for component documentation, and exploring advanced animation libraries.",
+    challenge: "I wanted a portfolio that shows both design and front-end skills, not just static images.",
+    approach: "I designed the system in Figma, built a design system, and rebuilt the site in React with component-based architecture and Tailwind CSS for styling.",
+    solution: [
+      "Built a fully responsive portfolio from scratch.",
+      "Created a design system and reusable components.",
+      "Implemented React Router for smooth navigation and accessible design throughout."
+    ],
+    outcome: "The site demonstrates growth from basic HTML/CSS to modern React development, with a bridge between design and code.",
     impact: [
-      "Progressed from vanilla HTML/CSS to modern React in 12 months",
-      "Strengthened React and Tailwind CSS proficiency",
-      "Learned to bridge design and development workflows",
-      "Built production-ready code from scratch"
+      "Improved front-end skills",
+      "Built production-ready code",
+      "Showed evolution of design-to-development workflow"
     ],
     additionalLink: "https://www.patibravo.com/",
     additionalLinkText: "patibravo.com",
@@ -145,6 +136,78 @@ Key elements included:
       "/projects/portfolio/portfolio-solution.png",
       "/projects/portfolio/portfolio-challenge.png",
       "/projects/portfolio/portfolio-approach.png"
+    ]
+  },
+
+  5: {
+    id: 5,
+    title: "B2B MICROSITE & INTERACTIVE EXPERIENCE",
+    client: "Chesterfield (via DDB Argentina)",
+    role: "UI Designer",
+    year: "2016",
+    sector: "B2B Brand Experience",
+    location: "Buenos Aires, Argentina",
+    languages: "Spanish",
+    duration: "6 months",
+    headerBg: "/projects/chesterfield/chesterfield-header.jpg",
+    tools: ["Adobe Photoshop", "Adobe Illustrator", "Axure RP"],
+    methodologies: ["Experience Design", "User Flow Definition", "Concept-Driven UI", "Gamification", "Stakeholder Presentation"],
+    challenge: "Advertising restrictions meant the brand could not communicate directly to consumers. The goal was to create an engaging digital experience for product providers only.",
+    approach: "I led the UI concept and design flow for a private microsite and iPad game. I presented ideas to the Creative Director and Product Owner, iterated designs based on feedback, and created a fun, structured way for providers to learn about the product.",
+    solution: [
+      "Created a secure microsite with a 'wall' concept for sharing and exploring content.",
+      "Designed a toggle between 'Original' (red) and 'Fresh' (green) for clear product differentiation.",
+      "Built an iPad game to teach product features in a playful way."
+    ],
+    outcome: "Providers enjoyed visiting the microsite repeatedly, interacting with content and the game. Feedback helped refine the interface and strengthened the brand-provider relationship.",
+    impact: [
+      "High engagement and repeat visits",
+      "Strengthened provider relationships",
+      "Gamified learning for B2B users",
+      "Feedback informed interface improvements"
+    ],
+    additionalLink: null,
+    additionalLinkText: null,
+    images: [
+      "/projects/chesterfield/chesterfield-solution.png",
+      "/projects/chesterfield/chesterfield-challenge.png",
+      "/projects/chesterfield/chesterfield-approach.png"
+    ]
+  },
+
+  6: {
+    id: 6,
+    title: "DDB & LYREBIRD PROJECT COMPILATION",
+    client: "Multiple Clients (DDB & Lyrebird)",
+    role: "UI/UX Designer",
+    year: "2013–2015",
+    sector: "Advertising & Brand Design",
+    location: "Buenos Aires, Argentina",
+    languages: "Spanish",
+    duration: "Ongoing compilation",
+    headerBg: "/projects/ddb-lyrebird/ddb-lyrebird-header.jpg",
+    tools: ["Adobe Photoshop", "Adobe Illustrator", "Sketch", "Axure RP"],
+    methodologies: ["UI Design", "Interaction Design", "UX Integration"],
+    challenge: "I worked on multiple projects for different brands, from clothing to real estate and food, needing to balance strong visual identity with evolving user experience needs.",
+    approach: "I designed interfaces and layouts for each project, gradually adding UX thinking into my UI work. Each project presented unique challenges, from digital catalogues to microsites, and I collaborated closely with creative directors and copywriters.",
+    solution: [
+      "Created UI designs for brands including Purina, Blue Ribbon (cold cuts), Totto (clothing and accessories), and Canon.",
+      "Developed interactive flows and layouts for websites, microsites, and digital campaigns.",
+      "Incorporated UX patterns progressively to improve usability across projects."
+    ],
+    outcome: "These projects show the evolution from strong visual UI design toward thoughtful UX integration. The brands could communicate clearly while users had a smoother, more engaging experience.",
+    impact: [
+      "Demonstrated versatility across industries and platforms",
+      "Built foundation in both UI and UX design",
+      "Improved usability and interaction quality over time",
+      "Prepared for more complex digital projects"
+    ],
+    additionalLink: null,
+    additionalLinkText: null,
+    images: [
+      "/projects/ddb/ddb-1.png",
+      "/projects/ddb/ddb-2.png",
+      "/projects/ddb/ddb-3.png"
     ]
   }
 };
